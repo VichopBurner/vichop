@@ -1,0 +1,9 @@
+
+_G.Webhook = "Your webhook here"
+_G.WebhookRoleIds = _G.WebhookRoleIds or {
+    vicious = "Your role id here",
+    giftedvicious = "Your role id here"
+}
+
+task.wait(25) -- Loading time here
+loadstring(game:HttpGet("https://raw.githubusercontent.com/VichopBurner/vichop/main/main.lua"))()
